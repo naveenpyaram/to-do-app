@@ -1,0 +1,44 @@
+.to-do{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  background-color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+.dbutton{
+background-color: rgb(230, 57, 57);
+border: none;
+padding:2px 4px;
+cursor: pointer;
+color: white;
+text-transform: uppercase;
+border-radius: 5px;
+}
+.ebutton{
+  background-color: rgb(86, 88, 238);
+  border: none;
+  padding:2px 4px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  }
+  .add{
+    background-color: rgb(245, 142, 51);
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+  }
